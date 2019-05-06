@@ -1,0 +1,13 @@
+D:\NetCore\FirstAppNetCore\FirstAppNetCore\bin\Debug\netcoreapp2.2\FirstAppNetCore.deps.json
+D:\NetCore\FirstAppNetCore\FirstAppNetCore\bin\Debug\netcoreapp2.2\FirstAppNetCore.runtimeconfig.json
+D:\NetCore\FirstAppNetCore\FirstAppNetCore\bin\Debug\netcoreapp2.2\FirstAppNetCore.runtimeconfig.dev.json
+D:\NetCore\FirstAppNetCore\FirstAppNetCore\bin\Debug\netcoreapp2.2\FirstAppNetCore.dll
+D:\NetCore\FirstAppNetCore\FirstAppNetCore\bin\Debug\netcoreapp2.2\FirstAppNetCore.pdb
+D:\NetCore\FirstAppNetCore\FirstAppNetCore\obj\Debug\netcoreapp2.2\FirstAppNetCore.csproj.CoreCompileInputs.cache
+D:\NetCore\FirstAppNetCore\FirstAppNetCore\obj\Debug\netcoreapp2.2\FirstAppNetCore.RazorAssemblyInfo.cache
+D:\NetCore\FirstAppNetCore\FirstAppNetCore\obj\Debug\netcoreapp2.2\FirstAppNetCore.RazorAssemblyInfo.cs
+D:\NetCore\FirstAppNetCore\FirstAppNetCore\obj\Debug\netcoreapp2.2\FirstAppNetCore.AssemblyInfoInputs.cache
+D:\NetCore\FirstAppNetCore\FirstAppNetCore\obj\Debug\netcoreapp2.2\FirstAppNetCore.AssemblyInfo.cs
+D:\NetCore\FirstAppNetCore\FirstAppNetCore\obj\Debug\netcoreapp2.2\FirstAppNetCore.RazorTargetAssemblyInfo.cache
+D:\NetCore\FirstAppNetCore\FirstAppNetCore\obj\Debug\netcoreapp2.2\FirstAppNetCore.dll
+D:\NetCore\FirstAppNetCore\FirstAppNetCore\obj\Debug\netcoreapp2.2\FirstAppNetCore.pdb
