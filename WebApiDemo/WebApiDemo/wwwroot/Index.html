@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="js/angular.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="productController">
+    <h1>Product Single Page</h1>
+    <button ng-click="getProducts()">Get Products</button>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Product Name</th>
+            <th>Launch Date</th>
+            <th>Category</th>
+            <th>Price</th>
+        </tr>
+        
+        <tr ng-repeat="p in products">
+            <td>{{p.id}}</td>
+            <td>{{p.productName}}</td>
+            <td>{{p.launchDate}}</td>
+            <td>{{p.category}}</td>
+            <td>{{p.price}}</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr><td>Id</td><td><input type="text" ng-model="id"></td></tr>
+        <tr><td>productName</td><td><input type="text" ng-model="productName"></td></tr>
+        <tr><td>launchDate</td><td><input type="text" ng-model="launchDate"></td></tr>
+        <tr><td>category</td><td><input type="text" ng-model="category"></td></tr>
+        <tr><td>price</td><td><input type="text" ng-model="price"></td></tr>
+        <tr><td><button ng-click="addProduct()">Add Product</button></td></tr>
+        
+    </table>
+
+    <script type="text/javascript">
+        var myApp = angular.module("myApp", []);
+        //A controller is a class
+        //
+
+        var productController = myApp.controller("productController", function ($scope, $http) {
+            var serviceUrl = "api/products";
+            $scope.product = [];
+            $scope.id = ""; $scope.productName = "New Product"; $scope.launchDate = "11/11/2017";
+            $scope.category = "Accessories"; $scope.price = "35.33";
+
+            $scope.addProduct = function () {
+                var newProduct = {
+                    "Id": $scope.id,
+                    "productName": $scope.productName,
+                    "launchDate": $scope.launchDate,
+                    "category": $scope.category,
+                    "price": $scope.price
+                };
+
+                $http.post(serviceUrl, newProduct)
+                    .then(function (response) {
+                        console.log(response.data);
+                    });
+            }
+
+            $scope.getProducts = function () {
+                $http.get(serviceUrl)
+                    .then(function (response) {
+                        $scope.products = response.data;
+                        console.log($scope.product);
+                    });
+            }
+        });
+    </script>
+</body>
+</html>

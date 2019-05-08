@@ -1,0 +1,11 @@
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB\bin\Debug\netcoreapp2.2\WebApiWithMongoDB.deps.json
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB\bin\Debug\netcoreapp2.2\WebApiWithMongoDB.runtimeconfig.json
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB\bin\Debug\netcoreapp2.2\WebApiWithMongoDB.runtimeconfig.dev.json
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB\bin\Debug\netcoreapp2.2\WebApiWithMongoDB.dll
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB\obj\Debug\netcoreapp2.2\WebApiWithMongoDB.csprojAssemblyReference.cache
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB\obj\Debug\netcoreapp2.2\WebApiWithMongoDB.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB\obj\Debug\netcoreapp2.2\WebApiWithMongoDB.RazorAssemblyInfo.cache
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB\obj\Debug\netcoreapp2.2\WebApiWithMongoDB.RazorAssemblyInfo.cs
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB\obj\Debug\netcoreapp2.2\WebApiWithMongoDB.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB\obj\Debug\netcoreapp2.2\WebApiWithMongoDB.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB\obj\Debug\netcoreapp2.2\WebApiWithMongoDB.RazorTargetAssemblyInfo.cache

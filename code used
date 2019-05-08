@@ -1,0 +1,2 @@
+Scaffold-DBContext "Server=(localdb)\mssqllocaldb;Database=DeloitteDB;Trusted_Connection=true;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+

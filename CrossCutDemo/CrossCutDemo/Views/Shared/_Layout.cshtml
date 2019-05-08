@@ -73,6 +73,13 @@
     </environment>
     <script src="~/js/site.js" asp-append-version="true"></script>
 
+    @{ 
+        var arrMenus = new string[] { "Contact Us", "Info", "Corporate Social Responsibility" };
+    }
+
     @RenderSection("Scripts", required: false)
+    <partial name="_FooterView" />
+    <br />
+    <partial name="_FooterMenu" model="arrMenus" />
 </body>
 </html>

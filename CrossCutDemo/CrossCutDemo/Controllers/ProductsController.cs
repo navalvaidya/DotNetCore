@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CrossCutDemo.Models;
 using CrossCutDemo.Models.CrossCuts;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CrossCutDemo.Controllers
 {
@@ -55,6 +56,7 @@ namespace CrossCutDemo.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles ="Admin")]
         public async Task<IActionResult> Create([Bind("Id,ProductName,LaunchDate,Category,Price")] Product product)
         {
             if (ModelState.IsValid)

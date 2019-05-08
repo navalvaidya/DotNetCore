@@ -42,7 +42,7 @@ namespace CrossCutDemo
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>()
+            services.AddIdentity<IdentityUser,IdentityRole>()
                 .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
@@ -58,10 +58,11 @@ namespace CrossCutDemo
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            app.useRequestCulture();
-            app.Run(async (context) => {
-                await context.Response.WriteAsync($"Hello {CultureInfo.CurrentCulture.DisplayName}");
-            });
+            //Adding Culture specific middleware
+            //app.useRequestCulture();
+            //app.Run(async (context) => {
+            //    await context.Response.WriteAsync($"Hello {CultureInfo.CurrentCulture.DisplayName}");
+            //});
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

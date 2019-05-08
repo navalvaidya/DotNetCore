@@ -35,3 +35,5 @@ C:\Users\ADMIN\source\repos\CrossCutDemo\CrossCutDemo\obj\Debug\netcoreapp2.2\Ra
 C:\Users\ADMIN\source\repos\CrossCutDemo\CrossCutDemo\obj\Debug\netcoreapp2.2\Razor\Views\Products\Details.g.cshtml.cs
 C:\Users\ADMIN\source\repos\CrossCutDemo\CrossCutDemo\obj\Debug\netcoreapp2.2\Razor\Views\Products\Edit.g.cshtml.cs
 C:\Users\ADMIN\source\repos\CrossCutDemo\CrossCutDemo\obj\Debug\netcoreapp2.2\Razor\Views\Products\Index.g.cshtml.cs
+C:\Users\ADMIN\source\repos\CrossCutDemo\CrossCutDemo\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_FooterView.g.cshtml.cs
+C:\Users\ADMIN\source\repos\CrossCutDemo\CrossCutDemo\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_FooterMenu.g.cshtml.cs
