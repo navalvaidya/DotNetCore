@@ -1,2 +1,19 @@
 Scaffold-DBContext "Server=(localdb)\mssqllocaldb;Database=DeloitteDB;Trusted_Connection=true;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
 
+Add-Migration Initial_Baseline_V1.0
+
+git credential-manager reject <url>
+
+type %USERPROFILE%\.git-credentials
+
+git config --global --unset-all
+
+
+Mongo Commands
+mongod dbpath -bookstore
+
+mongod -dbpath "d:\Bookstoredb"
+db.createCollection("Books");
+
+var books = [{"Bookname":"Net Core Fundamentals","Price":"32.33","Category":"Tech","Author":"Mr Bean"},{"Bookname":"Mind It","Price":"100000","Category":"Infinite","Author":"terw"}]
+

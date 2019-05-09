@@ -9,3 +9,6 @@ C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB\obj\Debug\netcor
 C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB\obj\Debug\netcoreapp2.2\WebApiWithMongoDB.AssemblyInfoInputs.cache
 C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB\obj\Debug\netcoreapp2.2\WebApiWithMongoDB.AssemblyInfo.cs
 C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB\obj\Debug\netcoreapp2.2\WebApiWithMongoDB.RazorTargetAssemblyInfo.cache
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB\bin\Debug\netcoreapp2.2\WebApiWithMongoDB.pdb
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB\obj\Debug\netcoreapp2.2\WebApiWithMongoDB.dll
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB\obj\Debug\netcoreapp2.2\WebApiWithMongoDB.pdb

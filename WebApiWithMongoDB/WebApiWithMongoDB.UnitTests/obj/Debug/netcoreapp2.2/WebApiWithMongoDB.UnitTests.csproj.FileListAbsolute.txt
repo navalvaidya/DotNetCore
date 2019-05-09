@@ -1,0 +1,17 @@
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB.UnitTests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB.UnitTests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB.UnitTests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB.UnitTests\bin\Debug\netcoreapp2.2\WebApiWithMongoDB.UnitTests.deps.json
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB.UnitTests\bin\Debug\netcoreapp2.2\WebApiWithMongoDB.UnitTests.runtimeconfig.json
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB.UnitTests\bin\Debug\netcoreapp2.2\WebApiWithMongoDB.UnitTests.runtimeconfig.dev.json
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB.UnitTests\bin\Debug\netcoreapp2.2\WebApiWithMongoDB.UnitTests.dll
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB.UnitTests\bin\Debug\netcoreapp2.2\WebApiWithMongoDB.UnitTests.pdb
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB.UnitTests\obj\Debug\netcoreapp2.2\WebApiWithMongoDB.UnitTests.csprojAssemblyReference.cache
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB.UnitTests\obj\Debug\netcoreapp2.2\WebApiWithMongoDB.UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB.UnitTests\obj\Debug\netcoreapp2.2\WebApiWithMongoDB.UnitTests.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB.UnitTests\obj\Debug\netcoreapp2.2\WebApiWithMongoDB.UnitTests.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB.UnitTests\obj\Debug\netcoreapp2.2\WebApiWithMongoDB.UnitTests.dll
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB.UnitTests\obj\Debug\netcoreapp2.2\WebApiWithMongoDB.UnitTests.pdb
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB.UnitTests\bin\Debug\netcoreapp2.2\WebApiWithMongoDB.dll
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB.UnitTests\bin\Debug\netcoreapp2.2\WebApiWithMongoDB.pdb
+C:\Users\ADMIN\source\repos\WebApiWithMongoDB\WebApiWithMongoDB.UnitTests\obj\Debug\netcoreapp2.2\WebApiWithMongoDB.UnitTests.csproj.CopyComplete

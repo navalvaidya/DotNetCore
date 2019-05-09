@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WebApiWithMongoDB.Services
 {
-    public class BookService
+    public class BookService : IBookService
     {
         private readonly IMongoCollection<Book> _books;
         public BookService(IConfiguration config)
@@ -22,5 +22,30 @@ namespace WebApiWithMongoDB.Services
         {
             return _books.Find(book => true).ToList();
         }
+
+        public Book Get(string id)
+        {
+            return _books.Find<Book>(book => book.Id==id).FirstOrDefault();
+        }
+
+        public Book Create(Book book)
+        {
+            _books.InsertOne(book);
+            return book;
+        }
+
+        public void Update(string id,Book bookIn)
+        {
+            _books.ReplaceOne(x=>x.Id==id,bookIn);
+        }
+
+        public void Remove(Book bookIn)
+        {
+            _books.DeleteOne(x => x.Id == bookIn.Id);
+        }
+
+
+
+
     }
 }

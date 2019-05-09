@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiWithMongoDB", "WebApiWithMongoDB\WebApiWithMongoDB.csproj", "{83377D80-B2B3-4EDC-A26E-E3B3E55E0327}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiWithMongoDB", "WebApiWithMongoDB\WebApiWithMongoDB.csproj", "{83377D80-B2B3-4EDC-A26E-E3B3E55E0327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiWithMongoDB.UnitTests", "WebApiWithMongoDB.UnitTests\WebApiWithMongoDB.UnitTests.csproj", "{1492E86F-EBA3-4A18-8F78-325E8BE94321}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{83377D80-B2B3-4EDC-A26E-E3B3E55E0327}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83377D80-B2B3-4EDC-A26E-E3B3E55E0327}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83377D80-B2B3-4EDC-A26E-E3B3E55E0327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1492E86F-EBA3-4A18-8F78-325E8BE94321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1492E86F-EBA3-4A18-8F78-325E8BE94321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1492E86F-EBA3-4A18-8F78-325E8BE94321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1492E86F-EBA3-4A18-8F78-325E8BE94321}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

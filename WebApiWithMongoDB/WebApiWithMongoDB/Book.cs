@@ -12,10 +12,10 @@ namespace WebApiWithMongoDB
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public int Id { get; set; }
+        public string Id { get; set; }
 
-        [BsonElement("BookName")]
-        public string BookName { get; set; }
+        [BsonElement("Bookname")]
+        public string Bookname { get; set; }
 
         [BsonElement("Price")]
         public decimal Price { get; set; }

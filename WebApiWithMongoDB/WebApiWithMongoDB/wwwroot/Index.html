@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="js/angular.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="bookController">
+    <h1>Books</h1>
+    <button ng-click="getBooks()">Get Books</button>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Book Name</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Author</th>
+        </tr>
+
+        <tr ng-repeat="p in books">
+            <td>{{p.id}}</td>
+            <td>{{p.bookname}}</td>
+            <td>{{p.price}}</td>
+            <td>{{p.category}}</td>
+            <td>{{p.author}}</td>
+            <td><button ng-click="deleteBook(p.id)">Delete Book</button></td>
+            <td><button ng-click="getUpdateData(p)">Update Book</button></td>
+        </tr>
+    </table>
+
+    <table>
+        <tr><td>Id</td><td><input type="text" ng-model="id"></td></tr>
+        <tr><td>bookname</td><td><input type="text" ng-model="bookname"></td></tr>
+        <tr><td>price</td><td><input type="text" ng-model="price"></td></tr>
+        <tr><td>category</td><td><input type="text" ng-model="category"></td></tr>
+        <tr><td>author</td><td><input type="text" ng-model="author"></td></tr>
+        <tr id="btnAdd"><td><button ng-click="addBook()">Add Book</button></td></tr>
+        <tr id="btnUpdate"><td><button ng-click="updateBook()">Update Book</button></td></tr>
+    </table>
+
+
+
+    <script type="text/javascript">
+        var myApp = angular.module("myApp", []);
+        //A controller is a class
+        //
+
+        var bookController = myApp.controller("bookController", function ($scope, $http) {
+            var serviceUrl = "api/books";
+            $scope.product = [];
+            $scope.id = ""; $scope.bookname = "New Book"; $scope.price = "150";
+            $scope.category = "Generic"; $scope.author = "name";
+
+            $scope.addBook = function () {
+                var newBook = {
+                    "Id": $scope.id,
+                    "bookname": $scope.bookname,
+                    "price": $scope.price,
+                    "category": $scope.category,
+                    "author": $scope.author
+                };
+
+                $http.post(serviceUrl, newBook)
+                    .then(function (response) {
+                        console.log(response.data);
+                    });
+            }
+
+            $scope.getBooks = function () {
+                $http.get(serviceUrl)
+                    .then(function (response) {
+                        $scope.books = response.data;
+                        console.log($scope.books);
+                    });
+            }
+
+            $scope.deleteBook = function (id) {
+                $http.delete(serviceUrl + "/" + id, id)
+                    .then(function (response) {
+                        console.log(response.data);
+                    });
+            }
+
+            $scope.getUpdateData = function (book) {
+                $scope.id = book.id;
+                $scope.bookname = book.bookname;
+                $scope.price = book.price;
+                $scope.category = book.category;
+                $scope.author = book.author;
+            }
+
+            $scope.updateBook = function () {
+                var newBook = {
+                    "Id": $scope.id,
+                    "bookname": $scope.bookname,
+                    "price": $scope.price,
+                    "category": $scope.category,
+                    "author": $scope.author
+                };
+
+                $http.put(serviceUrl + "/" + $scope.id, newBook)
+                    .then(function (response) {
+                        $scope.id = "";
+                        $scope.bookname = "";
+                        $scope.price = "";
+                        $scope.category = "";
+                        $scope.author = "";
+                        console.log(response.data);
+                    });
+            }
+        });
+    </script>
+</body>
+</html>
